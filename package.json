@@ -1,0 +1,11 @@
+{
+  "name": "bintext2prikey",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node dist/index.js"
+  },
+  "repository": "https://github.com/wrule/bintext2prikey.git",
+  "author": "jimao <1982775886@qq.com>",
+  "license": "MIT"
+}
