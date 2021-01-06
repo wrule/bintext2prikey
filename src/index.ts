@@ -9,7 +9,8 @@ if (nums.length != 256) {
   console.error('二进制数字长度不是256');
   process.exit(-1)
 }
-
+console.log(1, nums.filter((item) => item === 1).length);
+console.log(0, nums.filter((item) => item === 0).length);
 const numStrs = Array(64).fill(0).map((_, index) => {
   const start = index * 4;
   const numSeg = nums.slice(start, start + 4);
